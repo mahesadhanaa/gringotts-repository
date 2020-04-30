@@ -1,0 +1,9 @@
+---
+version: "1"
+inventory:
+  - gringottsname: order-fulfiller
+    host: "10.0.194.237"
+    database: order_fulfiller
+    username: chitato-app
+    port: 5432
+    depotid: main-payfazz
